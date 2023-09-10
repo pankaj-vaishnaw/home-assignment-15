@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#search-form {
+    text-align: center;
+    margin-top: 20px;
+    height: 100px;
+}
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    height: 250px;
+}
+.image-card {
+    margin: 50px;
+    max-width: 300px;
+    height: 250px;
+}
+ h1{
+     text-align: center;
+}
+input{
+    height: 40px;
+    width: 80ch;
+}
+button{
+    background-color: green;
+    color: black;
+    height: 40px;
+    width: 100px;
+}
+#show-more{
+    display: none; /* Initially hide the button */
+    margin: 20px auto; /* Center the button horizontally */
+    margin-top: 100%;
+    text-align: center;
+}
